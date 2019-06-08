@@ -15,6 +15,7 @@ class ImageCard extends React.Component {
         <img
           src={urls.regular}
           alt={description}
+          ref={this.imageRef}
         />
       </div>
     );
